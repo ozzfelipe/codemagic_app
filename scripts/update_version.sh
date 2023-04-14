@@ -19,7 +19,7 @@ else
 
 fi
 
-if git add . && git commit -m "chore: Increment version to $NEW_VERSION [SCRIPT]" && git push "https://ozzfelipe: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@github.com/ozzfelipe/codemagic_app.git"; then
+if git add . && git commit -m "chore: Increment version to $NEW_VERSION [SCRIPT]" && git push https://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@github.com/ozzfelipe/codemagic_app.git; then
 
  echo "Changes committed and pushed"
 
